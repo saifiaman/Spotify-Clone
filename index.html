@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- --------------All Content--------------- -->
+    <div class="all-content">
+        <!-- --------------Home and Library column--------------- -->
+        <div class="home-library">
+            <!-- --------------Home row--------------- -->
+            <div class="home-row">
+                <div class="home">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="search-bar" placeholder="What do you want to listen to ?">
+                </div>
+            </div>
+             <!-- --------------library row--------------- -->
+            <div class="library-row">
+                <div class="header-lib">
+                    <div class="your-lib">
+                        <i class="fa-solid fa-layer-group library"></i>
+                        <span>Your Library</span>
+                        <i class="fa-solid fa-plus plus"></i>
+                        <i class="fa-solid fa-arrow-right arrow"></i>
+                    </div>
+                    <div class="tab-lib">
+                        <div class="playlists">Playlist</div>
+                        <div class="artists">Artists</div>
+                        <div class="songs">Songs</div>
+                        <div class="albums">Albums</div>
+                    </div>
+                </div>
+                <div class="recents-lib">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="recent">
+                        <span>Recents</span>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <div class="batch-songs">
+                    <!-- --------------Song 1--------------- -->
+                    <div class="song-lib">
+                        <div class="song-thumb"><img src="liked song.jpg" alt="Liked Song"></div>
+                        <div class="song-details">
+                            <span class="song-ctgry">Liked Song</span>
+                            <div class="song-subdetail">
+                                <i class="fa-solid fa-thumbtack pin"></i>
+                                <span>Playlist</span>
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span>256 Songs</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- --------------Song 2--------------- -->
+                    <div class="song-lib">
+                        <div class="song-thumb"><img src="gym motivation.jpg" alt="gym motivation"></div>
+                        <div class="song-details">
+                            <span class="song-ctgry">Gym Motivation</span>
+                            <div class="song-subdetail">
+                                <i class="fa-solid fa-thumbtack pin"></i>
+                                <span>Phonk Playlist</span>
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span>512 Songs</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- --------------Song 3--------------- -->
+                    <div class="song-lib">
+                        <div class="song-thumb"><img src="lofi.jpg" alt="lofi"></div>
+                        <div class="song-details">
+                            <span class="song-ctgry">Lofi Music</span>
+                            <div class="song-subdetail">
+                                <!-- <i class="fa-solid fa-thumbtack pin"></i> -->
+                                <span>Playlist</span>
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span>64 Songs</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- --------------Song 4--------------- -->
+                    <div class="song-lib">
+                        <div class="song-thumb"><img src="english song.jpg" alt="english song"></div>
+                        <div class="song-details">
+                            <span class="song-ctgry">English Song</span>
+                            <div class="song-subdetail">
+                                <!-- <i class="fa-solid fa-thumbtack pin"></i> -->
+                                <span>Album</span>
+                                <i class="fa-solid fa-circle dot"></i>
+                                <span>128 Songs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- --------------Songs content--------------- -->
+        <div class="main-content-box">
+            <div class="main-content">
+                <div class="content-control">
+                    <div class="back-for">
+                        <i class="fa-solid fa-circle-chevron-left"></i>
+                        <i class="fa-solid fa-circle-chevron-right"></i>
+                    </div>
+                    <div class="profile-section">
+                        <div class="premium">Explore Premium</div>
+                        <div class="app-install">
+                            <i class="fa-solid fa-circle-down"></i>
+                            <span>Install App</span>
+                        </div>
+                        <div class="notification">
+                            <i class="fa-solid fa-bell"></i>
+                        </div>
+                        <div class="profile">
+                             <img src="gym motivation.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-lib">
+                    <div class="playlists all">All</div>
+                    <div class="artists music">Music</div>
+                    <div class="songs podcasts">Podcasts</div>
+                    <div class="albums artist">Artists</div>
+                </div>
+                <div class="recently-played">Recently Played</div>
+                <div class="rec-play-songs">
+                    <div class="song1">
+                        <div class="cover-image">
+                            <img src="gym motivation.jpg" alt="">
+                        </div>
+                        <div class="song-detls">
+                            <p class="title">One in a Million</p>
+                        <p class="description">Baby Rexha, David Guetta</p>
+                        </div>
+                    </div>
+                    <div class="song1">
+                        <div class="cover-image">
+                            <img src="gym motivation.jpg" alt="">
+                        </div>
+                        <div class="song-detls">
+                            <p class="title">One in a Million</p>
+                        <p class="description">Baby Rexha, David Guetta</p>
+                        </div>
+                    </div>
+                    <div class="song1">
+                        <div class="cover-image">
+                            <img src="gym motivation.jpg" alt="">
+                        </div>
+                        <div class="song-detls">
+                            <p class="title">One in a Million</p>
+                        <p class="description">Baby Rexha, David Guetta</p>
+                        </div>
+                    </div>
+                    <div class="song1">
+                        <div class="cover-image">
+                            <img src="gym motivation.jpg" alt="">
+                        </div>
+                        <div class="song-detls">
+                            <p class="title">One in a Million</p>
+                        <p class="description">Baby Rexha, David Guetta</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- --------Second Row Songs----------- -->
+                <div class="second-row-title">
+                    <div class="recently-played">Made for Aman Saifi</div>
+                    <p>Show all</p>
+                </div>
+                <!-- <div class="second-row-songs">
+                    <div class="song1 row2">
+                        <div class="cover-image">
+                            <img src="gym motivation.jpg" alt="">
+                        </div>
+                        <div class="song-detls">
+                            <p class="title">One in a Million</p>
+                        <p class="description">Baby Rexha, David Guetta</p>
+                        </div>
+                    </div>
+                    <div class="song1 row2">
+                        <div class="cover-image">
+                            <img src="gym motivation.jpg" alt="">
+                        </div>
+                        <div class="song-detls">
+                            <p class="title">One in a Million</p>
+                        <p class="description">Baby Rexha, David Guetta</p>
+                        </div>
+                    </div>
+                    <div class="song1 row2">
+                        <div class="cover-image">
+                            <img src="gym motivation.jpg" alt="">
+                        </div>
+                        <div class="song-detls row2">
+                            <p class="title">One in a Million</p>
+                        <p class="description">Baby Rexha, David Guetta</p>
+                        </div>
+                    </div>
+                    <div class="song1 row2">
+                        <div class="cover-image">
+                            <img src="gym motivation.jpg" alt="">
+                        </div>
+                        <div class="song-detls">
+                            <p class="title">One in a Million</p>
+                        <p class="description">Baby Rexha, David Guetta</p>
+                        </div>
+                    </div>
+                    <div class="song1 row2">
+                        <div class="cover-image">
+                            <img src="gym motivation.jpg" alt="">
+                        </div>
+                        <div class="song-detls">
+                            <p class="title">One in a Million</p>
+                        <p class="description">Baby Rexha, David Guetta</p>
+                        </div>
+                    </div> 
+                </div> -->
+            </div>
+        </div>
+
+        <!-- --------------Music Player--------------- -->
+        <div class="Music-player">
+            <div class="curr-song">
+                <div class="currsong-thumb">
+                    <img src="english song.jpg" alt="english song">
+                </div>
+                <div class="currsong-details">
+                    <span class="song-title">Die For You-Remix</span>
+                    <i class="fa-regular fa-heart like-icon"></i>
+                    <div class="song-desc">
+                        <span class="song-subdetail">The Weekend | Ariana Grande</span>   
+                    </div>
+                </div>
+            </div>
+            <div class="song-control">
+                <div class="control-buttons">
+                    <i class="fa-solid fa-shuffle shuffle"></i>
+                    <i class="fa-solid fa-backward-step back"></i>
+                    <i class="fa-solid fa-circle-play play"></i>
+                    <i class="fa-solid fa-forward-step next"></i>
+                    <i class="fa-solid fa-repeat repeat"></i>
+                </div>
+                <div class="timeline">
+                    <p>00:00</p>
+                    <div class="song-line"></div>
+                    <p>03:51</p>
+                </div>
+            </div>
+            <div class="accessibility">
+                <i class="fa-solid fa-microphone-lines"></i>
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-volume-high"></i>
+                <div class="volume"></div>
+                <i class="fa-solid fa-droplet"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-brush"></i>
+            </div>
+        </div> 
+    </div>
+    <script>src="script.js"</script>
+</body>
+</html>
